@@ -1,6 +1,11 @@
-document.getElementById("gerar-btn").addEventListener("click", function() // Evento de clique para o botão "Gerar Senha"
+document.getElementById("gerar-btn").addEventListener("click", gerarSenha); // Evento de clique para o botão "Gerar Senha"
 
-{
+document.getElementById("password-form").addEventListener("submit", function(event) {
+  event.preventDefault(); // Evita o comportamento padrão de recarregar a página
+  gerarSenha();
+});
+
+function gerarSenha() {
   const comprimento = document.getElementById("comprimento").value;
   const letrasRepetidas = document.getElementById("letras-repetidas").checked;
   const caracteresEspeciais = document.getElementById("caracteres-especiais").checked;
@@ -22,4 +27,4 @@ document.getElementById("gerar-btn").addEventListener("click", function() // Eve
 
   const senhaGeradaElement = document.getElementById("senha-gerada");
   senhaGeradaElement.textContent = "Sua senha gerada é: " + senha;
-});
+};

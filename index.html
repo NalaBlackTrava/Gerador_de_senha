@@ -9,22 +9,29 @@
 
 <body>
   <div class="container">
-    <h1>Gerador de Senhas</h1>
+    <h1>Gerador de <span class="blink">senhas_</span></h1>
     <small>da Na'linha Terça-Feira 💻🔐</small>
 
-    <form id="password-form">
-      <label for="comprimento">Comprimento da senha:</label>
-      <input type="number" id="comprimento" name="comprimento" min="1" value="8" required><br>
-
-      <label for="letras-repetidas">Permitir letras repetidas:</label>
-      <input type="checkbox" id="letras-repetidas" name="letras-repetidas"><br>
-
-      <label for="caracteres-especiais">Incluir caracteres especiais:</label>
-      <input type="checkbox" id="caracteres-especiais" name="caracteres-especiais"><br>
-
-      <button type="button" id="gerar-btn">Gerar Senha</button>
-      <p id="senha-gerada"></p>
+    <form id="password-form" onsubmit="gerarSenha(); return false;">
+      <div class="input-container">
+          <label class="label" for="comprimento">Comprimento da senha:</label>
+          <input type="number" id="comprimento" name="comprimento" min="1" value="8" required>
+      </div>
+  
+      <div class="input-container">
+          <label class="label" for="letras-repetidas">Permitir letras repetidas:</label>
+          <input type="checkbox" id="letras-repetidas" name="letras-repetidas">
+      </div>
+  
+      <div class="input-container">
+          <label class="label" for="caracteres-especiais">Incluir caracteres especiais:</label>
+          <input type="checkbox" id="caracteres-especiais" name="caracteres-especiais">
+      </div>
     </form>
+
+    <button type="button" id="gerar-btn" onclick="gerarSenha()">Gerar Senha</button>
+    <p id="senha-gerada"></p>
+
   </div>
 
   <script src="script.js"></script>

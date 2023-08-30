@@ -1,0 +1,6 @@
+Colocar a senha gerada, dentro de uma caixa, onde tenha do lado um botão para copiar a senha, ou seja, um botão que salva a senha para a área de tranferência.
+
+Adicionar um outro contâiner, ou aba, enfim, que explique a importância de uma senha gerada;
+    mostra matematicamente para uma pessoa leiga, como funciona a senha.
+
+Talvez fazer dessa, uma aplicação de gerenciamento de senha, ou armazenamento. Posso fazer uma vesão offline para PC e/ou celular.
