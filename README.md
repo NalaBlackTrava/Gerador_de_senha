@@ -1,4 +1,4 @@
-# (Segundo) Gerador de Senhas - Na'linha Terça-Feira 💻🔐
+# (Segundo) Gerador de Senhas 💻🔐
 
 Olá! Bem-vinde ao Gerador de Senhas da Na'linha Terça-Feira!
 👋 Este é um programa em JavaScript que permite a geração de senhas seguras e personalizadas com uma interface amigável.
