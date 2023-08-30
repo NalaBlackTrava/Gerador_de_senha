@@ -4,5 +4,11 @@ Adicionar um outro contâiner, ou aba, enfim, que explique a importância de uma
     mostra matematicamente para uma pessoa leiga, como funciona a senha.
 
 Talvez fazer dessa, uma aplicação de gerenciamento de senha, ou armazenamento. Posso fazer uma vesão offline para PC e/ou celular;
+    Adicionar a explicação de que um caderno é mais seguro.
 
 Deixar responsivo no celular.
+
+Fazer animação de asteriscos sendo digitados;
+    Depois eles viram a palavra "senhas_"
+
+    depois de algum tempo some e reinicia a animação.
