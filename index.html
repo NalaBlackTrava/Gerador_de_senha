@@ -9,7 +9,7 @@
 
 <body>
   <div class="container">
-    <h1>Gerador de <span class="blink">senhas_</span></h1>
+    <h1>Gerador de <span id="senha-text" class="blink"></span></h1>
     <small>da Na'linha Terça-Feira 💻🔐</small>
 
     <form id="password-form" onsubmit="gerarSenha(); return false;">
@@ -29,7 +29,7 @@
       </div>
     </form>
 
-    <button type="button" id="gerar-btn" onclick="gerarSenha()">Gerar Senha</button>
+    <button type="button" id="gerar-btn">Gerar Senha</button>
     <p id="senha-gerada"></p>
 
   </div>
